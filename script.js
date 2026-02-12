@@ -1,26 +1,3 @@
-(async function checkForUpdates() {
-    const currentVersion = "1.0";
-    const versionUrl = "https://raw.githubusercontent.com/ivysone/Will-you-be-my-Valentine-/main/version.json"; 
-
-    try {
-        const response = await fetch(versionUrl);
-        if (!response.ok) {
-            console.warn("Could not fetch version information.");
-            return;
-        }
-        const data = await response.json();
-        const latestVersion = data.version;
-        const updateMessage = data.updateMessage;
-
-        if (currentVersion !== latestVersion) {
-            alert(updateMessage);
-        } else {
-            console.log("You are using the latest version.");
-        }
-    } catch (error) {
-        console.error("Error checking for updates:", error);
-    }
-})();
 /* 
 (function optimizeExperience() {
     let env = window.location.hostname;
@@ -59,8 +36,8 @@ const messages = [
     "Don't do this to me 😭",
     "Long distance is already hard 💔",
     "I even made this website for you 🧸",
-    "Just kidding, say yes please! ❤️"
-    "I will cry in Spanish now 🇸🇪😭",
+    "Just kidding, say yes please! ❤️",
+    "I will cry in Spanish now 😭",
     "Okay wow... pain 💔",
     "I will be very very very sad...",
     "Last chance before teddy dies 🧸💀"
