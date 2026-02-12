@@ -54,16 +54,16 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
+    "No 😐",
+    "Marisa pls 🥺",
+    "Don't do this to me 😭",
+    "Long distance is already hard 💔",
+    "I even made this website for you 🧸",
     "Just kidding, say yes please! ❤️"
+    "I will cry in Spanish now 🇸🇪😭",
+    "Okay wow... pain 💔",
+    "I will be very very very sad...",
+    "Last chance before teddy dies 🧸💀"
 ];
 
 let messageIndex = 0;
